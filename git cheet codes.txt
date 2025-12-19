@@ -1,0 +1,82 @@
+1ST 
+mkdir Hi 
+cd Hi 
+git init 
+touch dot.txt 
+git add .
+git commit -m "some thing"
+git log 
+vi pk.txt 
+git add .
+git commit -m "some thing"
+git status 
+git log 
+
+2nd
+git branch new 
+git branch 
+git checkout new 
+vi pk.txt 
+git add .
+git commit -m "Some thing"
+git checkout master 
+git merge new 
+git log 
+
+3rd 
+git checkout new 
+git stash 
+git stash apply 
+git status 
+git add .
+git status 
+git commit -m "Some thing"
+git log 
+
+4th 
+mkdir clone 
+cd clone
+git clone https........
+
+5th 
+cd githublab 
+git fetch origin 
+git rebase origin 
+git log 
+
+6th 
+git checkout new 
+vi pk.txt 
+git add .
+git commit -m "Some thing "
+git checkout master 
+git log 
+
+7th 
+git tag v1.0
+git tag v1.0  "last code"
+git show v1.0
+
+8th 
+git branch 
+git checkout source-branch 
+vi pk.txt 
+git add .
+git commit -m "Some thing"
+vi pk.txt 
+git add .
+git commit -m "Some thing"
+git checkout master 
+git cherry-pick "last code"
+
+9th 
+git show "last code"
+
+10th 
+git log -author="Name" -since="date -until="date"
+
+11th
+git log -3 
+
+12th 
+git revert "last code"
